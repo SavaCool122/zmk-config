@@ -51,16 +51,16 @@
 		&kp Q &kp W &kp E &kp R &kp T 						&kp Y &kp U  &kp I &kp O  &kp P
 		&kp A &kp S &hm LALT D &hm LGUI F &kp G 			       	&kp H &hm RGUI J &hm RALT K &kp L &kp SEMI
 		&kp Z &kp X &kp C &kp V &kp B				        &kp N &kp M &kp COMMA &kp DOT &kp SLASH
-          				&mt SPC &sk LSHIFT  				&sk RCTRL &to 1
+          				&kp SPC &sk LSHIFT  				&sk RCTRL &to 1
 		>;
 		};
 
        		left_layer {
 		bindings = <
-		&kp ESC  &kp ATSN   &td LC(LG(LS(N4))) LS(N3) &kp DLLR    &kp PRCNT		&kp CARET &kp LS(COMMA) &kp LS(DOT) &kp SEMI &kp BKSP
-		&kp TAB    &kp EQUAL    &kp LA(RBKT)      &kp LA(LS(RBKT))     &kp SQT 		&kp BSLH &kp LBRC  &kp RBRC &kp PIPE  &kp ENTER
-		&kp TILDE    &kp LA(N3) 	&kp LA(LBKT) &kp LA(LS(LBKT))  &kp DQT 	&kp LBKT &kp LPRN &kp RPRN &kp RBKT  &to 3
-					    &to 0  &sk LSHIFT  					&sk RALT &to 2
+		&kp ESC  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)   &kp LS(N5)					&kp CARET &kp AMPS &kp STAR &kp MINUS &kp BKSP
+		&kp TAB    &kp LS(N1)   &trans &trans &kp SQT    		              &kp BSLH &kp LBRC  &kp RBRC &kp EQUAL  &kp ENTER
+		&kp TILDE  &trans 	&trans &trans  &trans 												&kp LBKT &kp LPRN &kp RPRN &kp RBKT  &to 3
+					   						 &to 0  &sk LSHIFT														&sk RALT &to 2
 		>;
 		};
 
