@@ -57,10 +57,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q  &kp W       &kp E        &kp R       &kp T        &kp Y      &kp U       &kp I        &kp O       &kp P     &none
-&none  &kp A  &ht LGUI S  &ht LCTRL D  &ht LALT F  &kp G        &kp H      &ht LALT J  &ht LCTRL K  &ht LGUI L  &kp BSPC  &none
-&none  &kp Z  &kp X       &kp C        &kp V       &kp B        &kp N      &kp M       &kp COMMA    &kp DOT     &kp RET   &none
-                          &none        &kp SPACE   &kp LSHFT    &kp LCTRL  &to 1       &none
+&none  &kp Q       &kp W       &kp E        &kp R       &kp T        &kp Y      &kp U       &kp I        &kp O       &kp P     &none
+&none  &ht CAPS A  &ht LALT S  &ht LCTRL D  &ht LGUI F  &kp G        &kp H      &ht LGUI J  &ht LCTRL K  &ht LALT L  &kp BSPC  &none
+&none  &kp Z       &kp X       &kp C        &kp V       &kp B        &kp N      &kp M       &kp COMMA    &kp DOT     &kp RET   &none
+                               &none        &kp SPACE   &kp LSHFT    &kp LCTRL  &to 1       &none
             >;
         };
 
@@ -72,10 +72,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp N1    &kp N2      &kp N3         &kp N4           &kp N5            &kp N6     &kp N7         &kp N8                &kp N9             &kp N0     &none
-&none  &kp CLCK  &ht LGUI S  &ht LCTRL TAB  &ht LALT ESCAPE  &none             &none      &ht LALT LEFT  &ht LCTRL DOWN_ARROW  &ht LGUI UP_ARROW  &kp RIGHT  &none
-&none  &trans    &trans      &trans         &trans           &trans            &none      &trans         &trans                &trans             &to 3      &none
-                             &none          &to 0            &kp LEFT_SHIFT    &kp LCTRL  &to 2          &none
+&none  &kp N1   &kp N2    &kp N3     &kp N4    &kp N5            &kp N6   &kp N7         &kp N8                &kp N9             &kp N0     &none
+&none  &kp TAB  &kp LALT  &kp LCTRL  &kp LGUI  &none             &none    &ht LGUI LEFT  &ht LCTRL DOWN_ARROW  &ht LALT UP_ARROW  &kp RIGHT  &none
+&none  &trans   &trans    &trans     &trans    &trans            &none    &trans         &trans                &trans             &to 3      &none
+                          &none      &to 0     &kp LEFT_SHIFT    &kp ESC  &to 2          &none
             >;
         };
 
@@ -90,7 +90,7 @@
 &none  &kp EXCL  &kp AT         &kp HASH        &kp DLLR           &kp PRCNT    &kp CARET  &kp AMPS        &kp ASTRK        &kp LPAR        &kp RPAR  &none
 &none  &kp DQT   &ht LGUI LBKT  &ht LCTRL LBRC  &ht LEFT_ALT LPAR  &kp QMARK    &kp FSLH   &ht LALT MINUS  &ht LCTRL EQUAL  &ht LGUI COLON  &kp SEMI  &none
 &none  &kp SQT   &kp RBKT       &kp RBRC        &kp RPAR           &trans       &kp BSLH   &kp UNDER       &kp PLUS         &kp PIPE        &to 3     &none
-                                &none           &to 0              &kp SPACE    &kp RET    &to 1           &none
+                                &none           &to 0              &kp LSHFT    &kp RET    &to 1           &none
             >;
         };
 
